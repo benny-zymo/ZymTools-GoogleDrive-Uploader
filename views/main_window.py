@@ -391,11 +391,11 @@ class DriveExplorerMainWindow(QMainWindow):
         self.drive_path_label = QLabel("☁️ Racine")
         drive_path_layout.addWidget(self.drive_path_label, 1)
 
-        self.drive_refresh_btn = QPushButton("🔄")
-        self.drive_refresh_btn.setFixedWidth(35)
-        self.drive_refresh_btn.clicked.connect(self.refresh_drive_files)
-        self.drive_refresh_btn.setToolTip("Actualiser")
-        drive_path_layout.addWidget(self.drive_refresh_btn)
+        # self.drive_refresh_btn = QPushButton("🔄")
+        # self.drive_refresh_btn.setFixedWidth(35)
+        # self.drive_refresh_btn.clicked.connect(self.refresh_drive_files)
+        # self.drive_refresh_btn.setToolTip("Actualiser")
+        # drive_path_layout.addWidget(self.drive_refresh_btn)
 
         drive_layout.addLayout(drive_path_layout)
 
